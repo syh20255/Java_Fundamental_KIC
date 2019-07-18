@@ -1,5 +1,8 @@
 package java_20190718;
+//성영한
+//내소스가 어렵찌?
 
+//열심히 공부해!!!
 public class LotteryDemo {
 	public static void main(String[] args) {
 		// Math.random() => 0 보다 크거나 같고 1보다 작은 양수를
