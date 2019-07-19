@@ -7,7 +7,7 @@ public class LotteryDemo {
 	public static void main(String[] args) {
 		// Math.random() => 0 보다 크거나 같고 1보다 작은 양수를
 		// double 값으로 반환한다.
-
+		
 		for (int k = 0; k < 5; k++) {
 
 			int[] lotto = new int[6];
