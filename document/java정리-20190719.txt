@@ -110,13 +110,31 @@ while(조건문){
  - continue label
  - continue label은 inner 반복문에서 outter 반복문의 
    조건문으로 이동할 때 사용
-  sung : while( 조건문1 ){
+sung : while( 조건문1 ){
 	while( 조건문2){
 		if(true) continue sung;
 	}
-  }
+ }
 - return statement
  - return문을 만나면 수행을 중지하고 호출한 곳으로 제어권을 넘겨줌
 
 배열(Array)
+ - 생성
+  - int[] a = new int[4];
+  - int[] a = {1,2,3,4};
+ - 할당
+   a[0] = 1;
+   a[1] = 2;
+   a[2] = 3;
+   a[3] = 4;
+ - 출력
+   for(int i=0 ; i<a.length ; i++){
+	System.out.println(a[i]);	
+   }
+ - 길이
+  - 배열길이 : length
+  - 문자열길이 : length()
+
+
+
 
