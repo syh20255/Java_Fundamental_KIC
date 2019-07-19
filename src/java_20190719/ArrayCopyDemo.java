@@ -22,5 +22,20 @@ public class ArrayCopyDemo {
 		for(String $ : temp) {
 			System.out.println($);
 		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 	}
 }
