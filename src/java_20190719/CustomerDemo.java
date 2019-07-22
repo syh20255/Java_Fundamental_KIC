@@ -6,6 +6,7 @@ public class CustomerDemo {
 		//Customer => Object type
 		//c1 => reference
 		//new Customer() => Object
+		
 		Customer c1 = new Customer();
 		c1.name = "성영한";
 		c1.age = 30;
