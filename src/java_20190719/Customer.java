@@ -8,4 +8,5 @@ public class Customer {
 	public double balance;
 	public boolean isReleased;
 	public static double interestRate;
+	public static final String BANKNAME="신한은행";
 }

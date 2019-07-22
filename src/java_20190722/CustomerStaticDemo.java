@@ -14,6 +14,10 @@ public class CustomerStaticDemo {
 		c1.phone = "010-8080-0987";
 		c1.balance = 190000.43;
 		c1.isReleased = false;
+		//final 변수는 재할당 할 수 없음
+		//Customer.BANKNAME = "국민은행";
+		//static 변수는 클래스 이름으로 접근하는 것이 관례이지만 reference로도
+		//접근이 가능하다(권장하지 않음)
 		//c1.interestRate = 3.5;
 		
 		
