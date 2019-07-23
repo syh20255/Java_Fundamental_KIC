@@ -10,7 +10,8 @@ public class OverloadingDemo {
 	//5. 반환형과 접근한정자는 같아도 되고 달라도 됨.
 	
 	public void print(String str) {
-		System.out.print(str);
+		System.out.printf(str+"\n");
+		
 	}
 	
 	public void print(int i) {
