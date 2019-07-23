@@ -21,7 +21,7 @@ public class Calendar {
 
 		int[] monthArray = { 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31 };
 
-		boolean isLeafYear = year % 4 == 0 && year % 100 != 0 || year % 400 == 0;
+		boolean isLeafYear = isLeafYear(year);
 
 		if (isLeafYear) {
 			monthArray[1] = 29;
@@ -39,7 +39,7 @@ public class Calendar {
 	public int getLastDay(int year, int month) {
 		int[] monthArray = { 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31 };
 
-		boolean isLeafYear = year % 4 == 0 && year % 100 != 0 || year % 400 == 0;
+		boolean isLeafYear = isLeafYear(year);
 
 		if (isLeafYear) {
 			monthArray[1] = 29;
@@ -47,9 +47,15 @@ public class Calendar {
 		
 		return monthArray[month-1];
 	}
+
+	private boolean isLeafYear(int year) {
+		return year % 4 == 0 && year % 100 != 0 || year % 400 == 0;
+	}
 	
 	public void print(int year) {
-		
+		for(int i=1;i<=12;i++) {
+			print(year,i);
+		}
 	}
 	
 	public void print(int year, int month) {
